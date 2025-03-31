@@ -1,2 +1,8 @@
 create git repo and clone it in local  
-create copy.py and add code to it(it will have csv file to a new data folder)
+create copy.py and add code to it(it will have csv file to a new data folder) 
+do git add-commit-push 
+dvc install 
+dvc init
+make one examplery storage by name s3 
+now we do dvc remote add -d myremote s3 (loacl folder for now) 
+next dvc add data/
