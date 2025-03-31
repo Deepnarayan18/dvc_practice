@@ -5,4 +5,5 @@ dvc install
 dvc init
 make one examplery storage by name s3 
 now we do dvc remote add -d myremote s3 (loacl folder for now) 
-next dvc add data/
+next dvc add data/ 
+dvc commit and push and again do git add-push-commit
